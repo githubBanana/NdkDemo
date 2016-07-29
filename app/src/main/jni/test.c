@@ -5,7 +5,7 @@
 
 JNIEXPORT jstring JNICALL Java_com_xs_ndkdemo_utils_JniUtil_getStringFromC
   (JNIEnv *env, jobject obj) {
-    return (*env) -> NewStringUTF(env,"这里是来自c的string");
+    return (*env) -> NewStringUTF(env,"this is getStringFromC method ");
   }
 
 JNIEXPORT jstring JNICALL Java_com_xs_ndkdemo_utils_JniUtil_getStringByboolean
